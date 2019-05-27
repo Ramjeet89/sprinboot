@@ -1,0 +1,11 @@
+RuleSet	rules	
+Import	in.spring.boot.model.Customer	
+Notes	Decision tables for discount calculation	
+		
+RuleTable  DiscountCalculation		
+NAME	CONDITION	ACTION
+	customerObject:Customer	
+	age>=$param	customerObject:setDiscount($param);
+NAME	Subscribed since 	Set Discount
+Standard Customer	1	15
+Premium Customer	2	25

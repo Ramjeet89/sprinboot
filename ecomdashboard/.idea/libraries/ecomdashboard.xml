@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ecomdashboard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ecomdashboard.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

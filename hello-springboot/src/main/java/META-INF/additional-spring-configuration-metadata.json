@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "default.course.chapterCount",
+  "type": "java.lang.String",
+  "description": "A description for 'default.course.chapterCount'"
+}]}
